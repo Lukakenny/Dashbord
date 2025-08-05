@@ -1,4 +1,6 @@
+import BarCharComponent from "./BarCharComponent";
 import CardComponent from "./CardComponent";
+
 import TopBarComponent from "./TopBarComponent";
 
 function DashboardComponent() {
@@ -7,8 +9,9 @@ function DashboardComponent() {
       <TopBarComponent />
 
       <div className="flex flex-row gap-[26px] ">
-        <div>
+        <div className="flex flex-col gap-[26px]">
           <CardComponent />
+          <BarCharComponent />
         </div>
 
         <div></div>
