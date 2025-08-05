@@ -4,7 +4,7 @@ import MenuComponent from "./MenuComponent";
 
 function SideBarComponent() {
   return (
-    <div className="bg-[#1D1D41] h-screen  w-[20%] px-[28px] py-[57px] ">
+    <div className="bg-[#1D1D41]    w-[20%] px-[28px] py-[57px] ">
       <img src={logo} alt="logo" className="mb-[60px]" />
 
       <MenuComponent />
